@@ -36,7 +36,7 @@ public class exercicio3 {
 			String estado_civil = read.next();
 			estado_civil.toLowerCase();
 			while(!estado_civil.equals("s") && !estado_civil.equals("c") && !estado_civil.equals("v") && !estado_civil.equals("s") && !estado_civil.equals("d")) {
-				System.out.print("ERRO! Informe seu estado civil usando f (feminino) ou m (masculino): ");
+				System.out.print("ERRO! Informe seu estado civil usando s = solteiro(a); c = casado(a); v = viúvo(a); d = divorciado(a): ");
 					estado_civil = read.next();
 					estado_civil.toLowerCase();
 			}
